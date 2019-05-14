@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wikipedia Viewer</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="wikiCall.js"></script>
+  <link rel="stylesheet" href="simple.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>Wikipedia Viewer</h1>
+      <p style="font-size: 22px">by Arthur Osipyan
+        <p>
+          <div class="w3-container" style="font-size:18px; margin-bottom:5px">
+            <a href="https://www.instagram.com/arty.nyc/" target='_blank'><i class="fa fa-instagram w3-hover-opacity"></i></a>
+            <a href="https://twitter.com/arty_nyc" target='_blank'><i class="fa fa-twitter w3-hover-opacity"></i></a>
+            <a href="https://www.linkedin.com/in/arthurosipyan/" target='_blank'><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+            <a href="https://unsplash.com/@arty_nyc" target='_blank'><i class="fa fa-camera w3-hover-opacity"></i></a>
+            <a href="https://github.com/arthurosipyan" target='_blank'><i class="fa fa-github w3-hover-opacity"></i></a>
+          </div>
+    </div>
+    <p style="font-size: 28px">Search the Wikipedia database!</p>
+    <input class="form-control" style="margin-bottom: 5px" type="text" id="search">
+    <div class="btn-group" style="margin-bottom: 5px">
+      <button id="request" type="button" class="btn btn-primary">Search</button>
+      <button id="randomWiki" type="button" class="btn btn-primary">Random</button>
+    </div>
+    <div class="list-group" id="result">
+    </div>
+  </div>
+
+</body>
+
+</html>
