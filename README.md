@@ -1,7 +1,5 @@
 # Wikipedia-Viewer
 
-# ![]( "Wikipedia Viewer")
-
 [![Build Status](https://travis-ci.com/arthurosipyan/JamaScript.svg?branch=master)](https://travis-ci.com/arthurosipyan/JamaScript)
 
 ## Table of Contents:
